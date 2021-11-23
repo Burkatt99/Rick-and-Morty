@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Ubuntu&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+}
+.cards_block{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 5% 0 5%;
+}
+.cards{
+    width: 20%;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: rgba(23, 67, 150, 0.507);
+    box-shadow: 10px 10px 10px rgba(23, 67, 150, 0.267);
+    font-size: 17px;
+}
+.cards h3{
+    color: rgb(30, 78, 167);
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.cards p{
+    padding-bottom: 10px;
+}
+.cards img{
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 10px 0px 10px rgb(40, 79, 150);
+}
+.cards img:hover, button:hover{
+    box-shadow: 13px 4px 13px rgb(10, 38, 90);
+    cursor: pointer;
+}
+button{
+    color: rgb(10, 38, 90);
+  width: 10%;
+  height: 25px;
+  border-radius: 8px;
+  border: 2px solid rgba(23, 67, 150, 0.267);
+  font-size: 17px;
+ margin: 30px 15px 0 0;
+}
+button:hover{
+    box-shadow: 8px 2px 6px rgb(10, 38, 90);
+}

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Ubuntu&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+}
+.block_inf{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 80px 5% 40px 5%; 
+}
+.character{
+    width: 20%;
+    height: 470px;
+    border-radius: 20px;
+    padding: 30px 15px 0px 0;
+    margin-bottom: 15px;
+    background: rgba(23, 67, 150, 0.507);
+    box-shadow: 10px 10px 10px rgba(23, 67, 150, 0.267);
+    font-size: 17px;
+}
+.character h3, h1{
+    color: rgb(10, 38, 90);
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.character p{
+    padding-bottom: 10px;
+}
+.character img{
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    box-shadow: 10px 0px 10px rgb(10, 38, 90);
+}
+.character img:hover, button:hover{
+    box-shadow: 13px 4px 13px rgb(10, 38, 90);
+    cursor: pointer;
+}
+.episode{
+    width: 75%;
+    max-height: 500px;
+    border-radius: 20px;
+    background: rgba(23, 67, 150, 0.507);
+    box-shadow: 10px 10px 10px rgba(23, 67, 150, 0.267);
+}
+.list_ep{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 0 0 15px;
+    align-items: flex-start;
+    align-content: space-around;
+}
+.list_ep .elem{
+    width: 20%;
+    height: auto;
+    text-align: start;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(23, 67, 150, 0.267);
+    
+}
+h1{
+    font-size: 35px;   
+}
