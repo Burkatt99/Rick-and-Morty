@@ -12,9 +12,9 @@ function App() {
       <Router>
         <Layout>
           <Routes>
-            <Route path="/add_person" element={<AddCard/>} />       
-            <Route path="/:id" element={<Detail />}/>   
-            <Route path="/" element={<MainPage />}/>
+            <Route path="/add_person" element={<AddCard />} />
+            <Route path="/:id" element={<Detail />} />
+            <Route path="/" element={<MainPage />} />
           </Routes>
         </Layout>
       </Router>

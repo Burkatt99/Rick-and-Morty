@@ -1,11 +1,10 @@
 import React from "react";
-import AddCharacter from '../../components/add_card';
-
+import AddCharacter from "../../components/add_card";
 
 function AddCard() {
   return (
     <div className="postBlock">
-      <AddCharacter/>
+      <AddCharacter />
     </div>
   );
 }

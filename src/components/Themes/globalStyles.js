@@ -1,4 +1,4 @@
-import { createGlobalStyle} from "styled-components"
+import { createGlobalStyle } from "styled-components";
 export const GlobalStyles = createGlobalStyle`
   body {
     background: ${({ theme }) => theme.body};
@@ -22,4 +22,4 @@ export const GlobalStyles = createGlobalStyle`
   #demo-simple-select-standard-label{
     font-size: ${({ theme }) => theme.size}
   }
-`
+`;

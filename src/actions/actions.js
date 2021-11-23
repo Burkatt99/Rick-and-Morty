@@ -2,9 +2,7 @@ import { GET_ITEM_CHARACTERS } from "../constatns/todo_type";
 import axios from "axios";
 
 export const getCharacters = () => async (dispatch) => {
-    const res = await axios.get(
-    `https://rickandmortyapi.com/api/character`
-  );
+  const res = await axios.get(`https://rickandmortyapi.com/api/character`);
   const character = res.data.results;
   console.log(character);
   character.forEach((el) => {
@@ -22,9 +20,3 @@ export const getCharacters = () => async (dispatch) => {
     });
   });
 };
-
-
-
-
-
-

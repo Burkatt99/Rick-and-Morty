@@ -1,10 +1,10 @@
 import React from "react";
-import Character from '../../components/character';
+import Character from "../../components/character";
 
 function Detail() {
   return (
     <div className="postBlock">
-      <Character/>
+      <Character />
     </div>
   );
 }
